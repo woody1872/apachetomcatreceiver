@@ -1,0 +1,152 @@
+type: apachetomcat
+
+status:
+  class: receiver
+  stability:
+    development: [metrics]
+
+metrics:
+  tomcat.jvm.memory.free:
+    enabled: true
+    description: TBD
+    unit: bytes
+    sum:
+      value_type: int
+      monotonic: false
+      aggregation_temporality: cumulative
+    attributes: []
+  tomcat.jvm.memory.total:
+    enabled: true
+    description: TBD
+    unit: bytes
+    sum:
+      value_type: int
+      monotonic: false
+      aggregation_temporality: cumulative
+    attributes: []
+  tomcat.jvm.memory.max:
+    enabled: true
+    description: TBD
+    unit: bytes
+    sum:
+      value_type: int
+      monotonic: false
+      aggregation_temporality: cumulative
+    attributes: []
+  # tomcat.jvm.memory_pool.usage.init:
+  #   enabled: true
+  #   description: TBD
+  #   unit: bytes
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.jvm.memory_pool.usage.committed:
+  #   enabled: true
+  #   description: TBD
+  #   unit: bytes
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.jvm.memory_pool.usage.max:
+  #   enabled: true
+  #   description: TBD
+  #   unit: bytes
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.jvm.memory_pool.usage.used:
+  #   enabled: true
+  #   description: TBD
+  #   unit: bytes
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.thread_info.max_threads:
+  #   enabled: true
+  #   description: TBD
+  #   unit: count
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.thread_info.current_thread_count:
+  #   enabled: true
+  #   description: TBD
+  #   unit: count
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.thread_info.current_thread_busy:
+  #   enabled: true
+  #   description: TBD
+  #   unit: count
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.request_info.max_time:
+  #   enabled: true
+  #   description: TBD
+  #   unit: ???
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.request_info.processing_time:
+  #   enabled: true
+  #   description: TBD
+  #   unit: ???
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.request_info.request_count:
+  #   enabled: true
+  #   description: TBD
+  #   unit: count
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.request_info.error_count:
+  #   enabled: true
+  #   description: TBD
+  #   unit: count
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.request_info.bytes_received:
+  #   enabled: true
+  #   description: TBD
+  #   unit: bytes
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
+  # tomcat.connector.request_info.bytes_sent:
+  #   enabled: true
+  #   description: TBD
+  #   unit: bytes
+  #   sum:
+  #     value_type: int
+  #     monotonic: false
+  #     aggregation_temporality: cumulative
+  #   attributes: [name, type]
